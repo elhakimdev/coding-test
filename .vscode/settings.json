@@ -1,0 +1,262 @@
+{
+  "tailwindCSS.includeLanguages": {
+    "javascript": "javascript",
+    "javascriptreact": "javascriptreact",
+    "typescript": "typescript",
+    "typescriptreact": "typescriptreact",
+    "plaintext": "html"
+  },
+  "tailwindCSS.emmetCompletions": true,
+  "editor.inlineSuggest.enabled": true,
+  "css.validate": false,
+  "files.associations": {
+    "*.css": "tailwindcss",
+    "*.ts": "typescript",
+    "*.js": "javascript",
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.lineHeight": 25,
+  "editor.suggestLineHeight": 50,
+  "editor.padding.top": 20,
+  "editor.padding.bottom": 20,
+  "editor.fontFamily": "Operator Mono Lig",
+  "editor.fontWeight": "600",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.codeLensFontFamily": "Operator Mono Lig",
+  "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
+  "editor.maxTokenizationLineLength": 20000000,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "editor.tokenColorCustomizations": {
+    "keywords": {
+      "foreground": "#08fddd",
+      "fontStyle": "italic bold"
+    }, 
+    "comments": {
+      "foreground": "#939DA5",
+      "fontStyle": "italic bold"
+    },
+    "textMateRules": [
+      {
+        "scope": ["storage.type.function.arrow.js","meta.arrow.js"],
+        "settings": {
+          "foreground": "#ffc800",
+          "fontStyle": ""
+        },
+      },
+      {
+        "scope": [
+          "meta.object-literal.key.js",
+          "meta.object.member.js",
+          "meta.objectliteral.js",
+          "meta.block.js",
+          "meta.function.expression.js",
+          "meta.var.expr.js",
+          "source.js",
+        ],
+        "settings": {
+          "foreground": "#ffb700",
+          "fontStyle": "italic bold"
+        }
+      },
+      {
+        "scope": [  
+          "variable.other.readwrite.js",
+          "meta.object.member.js",
+          "meta.objectliteral.js",
+          "meta.object.member.js",
+          "meta.objectliteral.js",
+          "meta.block.js",
+          "meta.function.expression.js",
+          "meta.var.expr.js",
+          "source.js",
+        ],
+        "settings": {
+          "foreground": "#4afc4d",
+          "fontStyle": "italic bold"
+        }
+      },
+      {
+        "scope": [
+          "variable.other.object.js",
+          "meta.function-call.js",
+          "source.js",
+        ],
+        "settings": {
+          "foreground": "#b3ff00",
+          "fontStyle": "italic bold"
+        }
+      },
+      {
+        "scope": [
+          "variable.other.constant.js",
+          "meta.definition.variable.js",
+          "meta.var-single-variable.expr.js",
+          "meta.var.expr.js",
+          "source.js",
+        ],
+        "settings": {
+          "foreground": "#ff5e00",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "entity.other.attribute-name.html",
+          "meta.attribute.html",
+        ],
+        "settings": {
+          "fontStyle": "italic bold"
+        }
+      },
+      {
+        "scope": [
+          "support.class.php",
+          "support.other.namespace.php",
+          "source.php",
+        ],
+        "settings": {
+          "foreground": "#ff6a00",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "keyword.other.use.php",
+          "meta.use.php",
+          "source.php",
+        ],
+        "settings": {
+          "foreground": "#b361ff",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "string.quoted.single.php",
+          "entity.name.function.php",
+          "source.php",
+        ],
+        "settings": {
+          "foreground": "#fb7f04",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "comment.block.blade",
+          "comment.line.double-slash.php",
+          "punctuation.definition.comment.php",
+          "source.php",
+        ],
+        "settings": {
+          "foreground": "#fffefd42",
+          "fontStyle": "italic bold"
+        }
+      },
+      {
+        "scope": [
+          "entity.name.function.php",
+          "meta.method-call.php",
+          "source.php",
+        ],
+        "settings": {
+          "foreground": "#70fd04",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "support.function.funchand.php",
+          "source.php",
+        ],
+        "settings": {
+          "foreground": "#f9fd04",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "support.class.component.tsx",
+        ],
+        "settings": {
+          "foreground": "#f8c303",
+          "fontStyle": "bold"
+        }
+      }
+    ]
+  },
+  "gitlens.defaultDateFormat": null,
+  "gitlens.defaultDateShortFormat": null,
+  "gitlens.defaultTimeFormat": null,
+  "php.validate.executablePath": "C:/php8/php.exe",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "editor.minimap.enabled": false,
+  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+  "php.validate.run": "onType",
+  "php-docblocker.alignParams": true,
+  "php-docblocker.alignReturn": true,
+  "php-docblocker.qualifyClassNames": true,
+  "git.autofetch": true,
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "js/ts.implicitProjectConfig.experimentalDecorators": true,
+  "settingsSync.ignoredExtensions": [],
+  "git.enableSmartCommit": true,
+  "remote.SSH.remotePlatform": {
+    "103.189.234.201": "linux"
+  },
+  "editor.tabSize": 2,
+  "explorer.confirmDelete": false,
+  "window.zoomLevel": 1,
+  "[typescript]": {},
+  "yaml.schemas": {
+    "file:///c%3A/Users/user/.vscode/extensions/atlassian.atlascode-3.4.12/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "php.executablePath": "",
+  "emmet.includeLanguages": {
+    "blade":"html",
+  },
+  "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons",
+  "workbench.colorTheme": "Monokai Pro (Filter Machine)",
+  "[javascript]": {
+    "editor.fontLigatures": true,
+    "editor.maxTokenizationLineLength": 2500
+  },
+  "nxConsole.showNodeVersionOnStartup": false,
+  "workbench.startupEditor": "none",
+  "[plaintext]": {
+    
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false
+  },
+  "workbench.settings.applyToAllProfiles": [
+  
+  ],
+  "terminal.integrated.fontFamily": "monospace",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.fontSize": 12,
+}

@@ -1,7 +1,2007 @@
-{
+  {
     "salesReps": [
       {
         "id": 1,
+        "name": "Kevin",
+        "role": "Regional Sales Manager",
+        "region": "South America",
+        "skills": [
+          "Data Analysis",
+          "CRM",
+          "Relationship Building"
+        ],
+        "deals": [
+          {
+            "client": "Fletcher Ltd",
+            "value": 57587,
+            "status": "Closed Lost"
+          },
+          {
+            "client": "Howard PLC",
+            "value": 53861,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Jones-Cooper",
+            "value": 108265,
+            "status": "Closed Lost"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Carey, Harrington and Rubio",
+            "industry": "Logistics",
+            "contact": "robert59@yahoo.com"
+          },
+          {
+            "name": "Ferguson-Arnold",
+            "industry": "Telecommunications",
+            "contact": "kerry95@gmail.com"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Katrina",
+        "role": "Account Manager",
+        "region": "Middle East",
+        "skills": [
+          "Relationship Building",
+          "Presentation",
+          "Sales Strategy"
+        ],
+        "deals": [
+          {
+            "client": "Stanley, Atkinson and Morris",
+            "value": 123343,
+            "status": "Closed Lost"
+          },
+          {
+            "client": "Dixon, Stewart and Reid",
+            "value": 78485,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Boone-Brady",
+            "value": 127407,
+            "status": "In Progress"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Navarro, Ward and Love",
+            "industry": "Tech",
+            "contact": "williamsmark@yahoo.com"
+          },
+          {
+            "name": "Carroll-Spence",
+            "industry": "Finance",
+            "contact": "harperjoseph@palmer.net"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Jamie",
+        "role": "Account Manager",
+        "region": "Asia-Pacific",
+        "skills": [
+          "Presentation",
+          "Strategic Partnerships",
+          "Customer Service"
+        ],
+        "deals": [
+          {
+            "client": "Wheeler, Chavez and Brown",
+            "value": 87363,
+            "status": "Closed Lost"
+          },
+          {
+            "client": "Price-Wolfe",
+            "value": 94730,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Mayer LLC",
+            "value": 91823,
+            "status": "In Progress"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Andrews Ltd",
+            "industry": "Tech",
+            "contact": "grobinson@mccall.org"
+          },
+          {
+            "name": "Taylor and Sons",
+            "industry": "Telecommunications",
+            "contact": "leslie26@martinez.com"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Jesse",
+        "role": "Regional Sales Manager",
+        "region": "North America",
+        "skills": [
+          "Market Analysis",
+          "Strategic Partnerships",
+          "Client Relations"
+        ],
+        "deals": [
+          {
+            "client": "Landry Inc",
+            "value": 112054,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Barton, Lester and Collins",
+            "value": 99436,
+            "status": "Closed Lost"
+          },
+          {
+            "client": "Reed-Thompson",
+            "value": 96470,
+            "status": "Closed Lost"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Price-Rios",
+            "industry": "Retail",
+            "contact": "uhodge@hotmail.com"
+          },
+          {
+            "name": "Henry-Johnson",
+            "industry": "Manufacturing",
+            "contact": "ryan94@wilson.info"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Marc",
+        "role": "Sales Representative",
+        "region": "Europe",
+        "skills": [
+          "Data Analysis",
+          "Market Analysis",
+          "Relationship Building"
+        ],
+        "deals": [
+          {
+            "client": "Hall Inc",
+            "value": 108269,
+            "status": "Closed Lost"
+          },
+          {
+            "client": "Elliott Inc",
+            "value": 71315,
+            "status": "Closed Lost"
+          },
+          {
+            "client": "Webb, Liu and James",
+            "value": 117066,
+            "status": "In Progress"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Benson LLC",
+            "industry": "Hospitality",
+            "contact": "dennisjohn@yahoo.com"
+          },
+          {
+            "name": "Huang-Valencia",
+            "industry": "Hospitality",
+            "contact": "jermaine64@hotmail.com"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Kenneth",
+        "role": "Sales Representative",
+        "region": "Asia-Pacific",
+        "skills": [
+          "Negotiation",
+          "Sales Strategy",
+          "Lead Generation"
+        ],
+        "deals": [
+          {
+            "client": "Sanchez, Bennett and Byrd",
+            "value": 58124,
+            "status": "In Progress"
+          },
+          {
+            "client": "Hall, Nash and Smith",
+            "value": 122939,
+            "status": "In Progress"
+          },
+          {
+            "client": "Cruz-Alvarez",
+            "value": 46464,
+            "status": "Closed Won"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Mcgee-Ho",
+            "industry": "Retail",
+            "contact": "robinsondeborah@yahoo.com"
+          },
+          {
+            "name": "Simpson, Campbell and Cummings",
+            "industry": "Telecommunications",
+            "contact": "rebeccafisher@young.com"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Jesse",
+        "role": "Sales Representative",
+        "region": "Europe",
+        "skills": [
+          "Market Expansion",
+          "Client Relations",
+          "Data Analysis"
+        ],
+        "deals": [
+          {
+            "client": "Bowen, Watts and Jones",
+            "value": 59440,
+            "status": "Closed Lost"
+          },
+          {
+            "client": "Eaton-Morales",
+            "value": 89973,
+            "status": "Closed Lost"
+          },
+          {
+            "client": "Williams PLC",
+            "value": 108506,
+            "status": "In Progress"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Calhoun-Jackson",
+            "industry": "Finance",
+            "contact": "ngray@yahoo.com"
+          },
+          {
+            "name": "Johnson, Grant and Mcneil",
+            "industry": "Energy",
+            "contact": "nathan31@pierce.biz"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Maria",
+        "role": "Sales Representative",
+        "region": "Middle East",
+        "skills": [
+          "Negotiation",
+          "Presentation",
+          "Data Analysis"
+        ],
+        "deals": [
+          {
+            "client": "Reynolds Ltd",
+            "value": 129563,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Wilkinson-Conner",
+            "value": 69162,
+            "status": "Closed Lost"
+          },
+          {
+            "client": "Hernandez-Jones",
+            "value": 108992,
+            "status": "Closed Lost"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Acosta, Flynn and Brown",
+            "industry": "Telecommunications",
+            "contact": "angela21@hotmail.com"
+          },
+          {
+            "name": "Garcia-Mcintosh",
+            "industry": "Hospitality",
+            "contact": "nwebster@hotmail.com"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Christine",
+        "role": "Sales Representative",
+        "region": "South America",
+        "skills": [
+          "Market Expansion",
+          "Customer Service",
+          "Strategic Partnerships"
+        ],
+        "deals": [
+          {
+            "client": "Smith-Ayala",
+            "value": 76769,
+            "status": "Closed Lost"
+          },
+          {
+            "client": "Hall, Phillips and Perez",
+            "value": 62181,
+            "status": "Closed Lost"
+          },
+          {
+            "client": "Mueller, Townsend and Edwards",
+            "value": 68353,
+            "status": "In Progress"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Nolan, Kim and Rodriguez",
+            "industry": "Logistics",
+            "contact": "markking@gmail.com"
+          },
+          {
+            "name": "Mendez-Morton",
+            "industry": "Energy",
+            "contact": "lindseysuarez@white.net"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Allison",
+        "role": "Regional Sales Manager",
+        "region": "Middle East",
+        "skills": [
+          "Lead Generation",
+          "Market Expansion",
+          "Market Analysis"
+        ],
+        "deals": [
+          {
+            "client": "Hughes-Taylor",
+            "value": 121063,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Murphy Inc",
+            "value": 74740,
+            "status": "Closed Lost"
+          },
+          {
+            "client": "Brown, Gardner and Garcia",
+            "value": 96605,
+            "status": "Closed Won"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Wilkerson Ltd",
+            "industry": "Tech",
+            "contact": "sara03@yahoo.com"
+          },
+          {
+            "name": "Ross, Webb and Farmer",
+            "industry": "Healthcare",
+            "contact": "williamstiffany@barker-harrison.com"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "James",
+        "role": "Regional Sales Manager",
+        "region": "Europe",
+        "skills": [
+          "Market Analysis",
+          "Presentation",
+          "Market Expansion"
+        ],
+        "deals": [
+          {
+            "client": "Young, Rodriguez and Taylor",
+            "value": 63668,
+            "status": "In Progress"
+          },
+          {
+            "client": "Williams-Fitzpatrick",
+            "value": 101660,
+            "status": "Closed Lost"
+          },
+          {
+            "client": "Rowe Inc",
+            "value": 124820,
+            "status": "Closed Lost"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Chen, Ochoa and Robinson",
+            "industry": "Hospitality",
+            "contact": "vgray@yahoo.com"
+          },
+          {
+            "name": "Castillo LLC",
+            "industry": "Tech",
+            "contact": "abarry@yahoo.com"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "William",
+        "role": "Account Manager",
+        "region": "North America",
+        "skills": [
+          "CRM",
+          "Negotiation",
+          "Customer Service"
+        ],
+        "deals": [
+          {
+            "client": "Williams-Cooper",
+            "value": 56212,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Valencia Group",
+            "value": 123957,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Jacobs, Ramirez and Jones",
+            "value": 99430,
+            "status": "In Progress"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Evans, Anderson and Brooks",
+            "industry": "Logistics",
+            "contact": "mhernandez@yahoo.com"
+          },
+          {
+            "name": "Key-Mckinney",
+            "industry": "Logistics",
+            "contact": "daniel42@mendez.biz"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Brittany",
+        "role": "Senior Sales Executive",
+        "region": "South America",
+        "skills": [
+          "Presentation",
+          "Data Analysis",
+          "Lead Generation"
+        ],
+        "deals": [
+          {
+            "client": "Wilson-Smith",
+            "value": 72782,
+            "status": "In Progress"
+          },
+          {
+            "client": "Cameron-Davis",
+            "value": 108823,
+            "status": "In Progress"
+          },
+          {
+            "client": "Odom-Sanchez",
+            "value": 51313,
+            "status": "Closed Lost"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Anderson Group",
+            "industry": "Retail",
+            "contact": "houseaustin@aguirre.org"
+          },
+          {
+            "name": "Patterson PLC",
+            "industry": "Logistics",
+            "contact": "qirwin@gmail.com"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Stacy",
+        "role": "Sales Representative",
+        "region": "Middle East",
+        "skills": [
+          "Market Analysis",
+          "Negotiation",
+          "Client Relations"
+        ],
+        "deals": [
+          {
+            "client": "Clark, Blake and Campbell",
+            "value": 88328,
+            "status": "In Progress"
+          },
+          {
+            "client": "Jones-Johnson",
+            "value": 122728,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Phillips, Ramirez and White",
+            "value": 116095,
+            "status": "Closed Won"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Henderson, Ramirez and Lynch",
+            "industry": "Tech",
+            "contact": "robertsonjennifer@yahoo.com"
+          },
+          {
+            "name": "Schwartz Ltd",
+            "industry": "Healthcare",
+            "contact": "lauracox@yahoo.com"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Cathy",
+        "role": "Regional Sales Manager",
+        "region": "Europe",
+        "skills": [
+          "Strategic Partnerships",
+          "Client Relations",
+          "Sales Strategy"
+        ],
+        "deals": [
+          {
+            "client": "Brown and Sons",
+            "value": 80407,
+            "status": "In Progress"
+          },
+          {
+            "client": "Huff-Moses",
+            "value": 76682,
+            "status": "In Progress"
+          },
+          {
+            "client": "Smith-Nguyen",
+            "value": 109291,
+            "status": "Closed Lost"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Scott-Robles",
+            "industry": "Hospitality",
+            "contact": "denise49@watson.com"
+          },
+          {
+            "name": "Miller Ltd",
+            "industry": "Energy",
+            "contact": "hannah67@avila.com"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Ryan",
+        "role": "Senior Sales Executive",
+        "region": "Asia-Pacific",
+        "skills": [
+          "Client Relations",
+          "Market Expansion",
+          "Relationship Building"
+        ],
+        "deals": [
+          {
+            "client": "Branch-Becker",
+            "value": 82341,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Brown, Garcia and Grant",
+            "value": 116516,
+            "status": "Closed Lost"
+          },
+          {
+            "client": "Moore-Bowman",
+            "value": 128901,
+            "status": "Closed Won"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Warner-Campbell",
+            "industry": "Energy",
+            "contact": "yherman@ramos.com"
+          },
+          {
+            "name": "Martinez Ltd",
+            "industry": "Tech",
+            "contact": "smithbrenda@mcdonald-pearson.org"
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Joshua",
+        "role": "Business Development Manager",
+        "region": "South America",
+        "skills": [
+          "Market Analysis",
+          "Relationship Building",
+          "Client Relations"
+        ],
+        "deals": [
+          {
+            "client": "Hill-Green",
+            "value": 112872,
+            "status": "Closed Lost"
+          },
+          {
+            "client": "Newman, Jones and Richards",
+            "value": 61820,
+            "status": "In Progress"
+          },
+          {
+            "client": "Dennis-Jackson",
+            "value": 108527,
+            "status": "In Progress"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Aguilar-Miller",
+            "industry": "Retail",
+            "contact": "erica17@cole.org"
+          },
+          {
+            "name": "Evans-Brady",
+            "industry": "Telecommunications",
+            "contact": "epark@gmail.com"
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Jennifer",
+        "role": "Senior Sales Executive",
+        "region": "Middle East",
+        "skills": [
+          "Customer Service",
+          "CRM",
+          "Presentation"
+        ],
+        "deals": [
+          {
+            "client": "Mills Inc",
+            "value": 81455,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Page-White",
+            "value": 72502,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Holland, Hill and Campbell",
+            "value": 91564,
+            "status": "Closed Won"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Andersen-Smith",
+            "industry": "Tech",
+            "contact": "xjones@brown.com"
+          },
+          {
+            "name": "Howard-Taylor",
+            "industry": "Healthcare",
+            "contact": "alyssaburke@hotmail.com"
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Diana",
+        "role": "Account Manager",
+        "region": "Middle East",
+        "skills": [
+          "Relationship Building",
+          "Sales Strategy",
+          "CRM"
+        ],
+        "deals": [
+          {
+            "client": "Flynn-Diaz",
+            "value": 71015,
+            "status": "Closed Lost"
+          },
+          {
+            "client": "Morrison, Peters and Jones",
+            "value": 83104,
+            "status": "Closed Lost"
+          },
+          {
+            "client": "Snyder Inc",
+            "value": 102115,
+            "status": "Closed Lost"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Keith, Williams and Hale",
+            "industry": "Hospitality",
+            "contact": "oliverstacey@yahoo.com"
+          },
+          {
+            "name": "Lawson, Knox and Rivera",
+            "industry": "Energy",
+            "contact": "garciadennis@hotmail.com"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Elizabeth",
+        "role": "Senior Sales Executive",
+        "region": "Middle East",
+        "skills": [
+          "CRM",
+          "Client Relations",
+          "Market Expansion"
+        ],
+        "deals": [
+          {
+            "client": "Bates and Sons",
+            "value": 100302,
+            "status": "Closed Lost"
+          },
+          {
+            "client": "Ford-Shah",
+            "value": 69456,
+            "status": "Closed Lost"
+          },
+          {
+            "client": "Garrett, Edwards and Miller",
+            "value": 110729,
+            "status": "In Progress"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Baldwin-Deleon",
+            "industry": "Energy",
+            "contact": "pricejulian@hotmail.com"
+          },
+          {
+            "name": "Cochran, Turner and Mclaughlin",
+            "industry": "Finance",
+            "contact": "hermankathleen@yahoo.com"
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Michelle",
+        "role": "Sales Representative",
+        "region": "North America",
+        "skills": [
+          "Sales Strategy",
+          "Customer Service",
+          "Market Analysis"
+        ],
+        "deals": [
+          {
+            "client": "Goodwin-Perkins",
+            "value": 119239,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Benson Inc",
+            "value": 94901,
+            "status": "In Progress"
+          },
+          {
+            "client": "Garza, Johnson and Griffin",
+            "value": 84641,
+            "status": "In Progress"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Nielsen Group",
+            "industry": "Manufacturing",
+            "contact": "bradley20@logan.info"
+          },
+          {
+            "name": "Suarez PLC",
+            "industry": "Logistics",
+            "contact": "vhess@yahoo.com"
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "Sherry",
+        "role": "Senior Sales Executive",
+        "region": "Europe",
+        "skills": [
+          "Data Analysis",
+          "Strategic Partnerships",
+          "Presentation"
+        ],
+        "deals": [
+          {
+            "client": "Baker, Diaz and Lucas",
+            "value": 124999,
+            "status": "In Progress"
+          },
+          {
+            "client": "Lambert-Keller",
+            "value": 115229,
+            "status": "Closed Lost"
+          },
+          {
+            "client": "Vasquez, Coleman and Russell",
+            "value": 85980,
+            "status": "Closed Lost"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Smith and Sons",
+            "industry": "Healthcare",
+            "contact": "grobles@williamson.net"
+          },
+          {
+            "name": "Williams, Fields and Evans",
+            "industry": "Healthcare",
+            "contact": "cbennett@gibbs-perez.com"
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "name": "Rebecca",
+        "role": "Senior Sales Executive",
+        "region": "North America",
+        "skills": [
+          "Market Expansion",
+          "Negotiation",
+          "Relationship Building"
+        ],
+        "deals": [
+          {
+            "client": "Strickland, Mcdonald and Gibbs",
+            "value": 85738,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Lamb, Rice and Parker",
+            "value": 101342,
+            "status": "Closed Lost"
+          },
+          {
+            "client": "Miller PLC",
+            "value": 110606,
+            "status": "In Progress"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Heath-Hayes",
+            "industry": "Healthcare",
+            "contact": "christopherwilkins@harris.net"
+          },
+          {
+            "name": "Smith, Powell and Holmes",
+            "industry": "Retail",
+            "contact": "harveykeith@hotmail.com"
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "name": "Charles",
+        "role": "Business Development Manager",
+        "region": "Asia-Pacific",
+        "skills": [
+          "Negotiation",
+          "Sales Strategy",
+          "Strategic Partnerships"
+        ],
+        "deals": [
+          {
+            "client": "Calderon, Patel and Miller",
+            "value": 66298,
+            "status": "Closed Lost"
+          },
+          {
+            "client": "Gray-Campbell",
+            "value": 116672,
+            "status": "Closed Lost"
+          },
+          {
+            "client": "Brown-Butler",
+            "value": 110586,
+            "status": "Closed Lost"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Jones Ltd",
+            "industry": "Retail",
+            "contact": "henrycarl@gmail.com"
+          },
+          {
+            "name": "Mckay, Wilson and Rogers",
+            "industry": "Tech",
+            "contact": "brian83@gmail.com"
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "Jeanne",
+        "role": "Senior Sales Executive",
+        "region": "North America",
+        "skills": [
+          "Lead Generation",
+          "Data Analysis",
+          "Negotiation"
+        ],
+        "deals": [
+          {
+            "client": "Thompson, Smith and Parks",
+            "value": 66653,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Molina PLC",
+            "value": 62775,
+            "status": "In Progress"
+          },
+          {
+            "client": "Hernandez, Conley and Werner",
+            "value": 119862,
+            "status": "Closed Lost"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Wilson-Sellers",
+            "industry": "Tech",
+            "contact": "alexandrasimon@gmail.com"
+          },
+          {
+            "name": "Robbins, Ramirez and Mclaughlin",
+            "industry": "Retail",
+            "contact": "carterjoseph@cabrera.biz"
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "name": "Ricardo",
+        "role": "Account Manager",
+        "region": "Asia-Pacific",
+        "skills": [
+          "Market Analysis",
+          "Strategic Partnerships",
+          "Sales Strategy"
+        ],
+        "deals": [
+          {
+            "client": "Gates Ltd",
+            "value": 109222,
+            "status": "Closed Lost"
+          },
+          {
+            "client": "Cruz-Meyer",
+            "value": 100934,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Davis-Knight",
+            "value": 124819,
+            "status": "Closed Lost"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Patterson, Davis and Mccann",
+            "industry": "Finance",
+            "contact": "douglasgibson@gmail.com"
+          },
+          {
+            "name": "Allen, Franklin and Patrick",
+            "industry": "Retail",
+            "contact": "michaellong@hotmail.com"
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "name": "Eric",
+        "role": "Business Development Manager",
+        "region": "Middle East",
+        "skills": [
+          "Sales Strategy",
+          "Market Analysis",
+          "Lead Generation"
+        ],
+        "deals": [
+          {
+            "client": "Reed, Barnes and Horn",
+            "value": 73599,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Gill Group",
+            "value": 90748,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Chan, Gutierrez and Scott",
+            "value": 51129,
+            "status": "In Progress"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Sandoval Group",
+            "industry": "Finance",
+            "contact": "matthewduke@stein.com"
+          },
+          {
+            "name": "Meadows, Jarvis and Rodriguez",
+            "industry": "Logistics",
+            "contact": "christinaturner@yahoo.com"
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "name": "Brett",
+        "role": "Sales Representative",
+        "region": "North America",
+        "skills": [
+          "Market Analysis",
+          "Sales Strategy",
+          "Presentation"
+        ],
+        "deals": [
+          {
+            "client": "Mack, Johnson and Rubio",
+            "value": 54539,
+            "status": "Closed Lost"
+          },
+          {
+            "client": "Walker Ltd",
+            "value": 113664,
+            "status": "In Progress"
+          },
+          {
+            "client": "Maldonado-Cruz",
+            "value": 103649,
+            "status": "Closed Won"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Friedman, Ross and Patel",
+            "industry": "Manufacturing",
+            "contact": "wmartinez@willis-rice.com"
+          },
+          {
+            "name": "Mckinney-Santos",
+            "industry": "Healthcare",
+            "contact": "lisajones@carrillo-lamb.biz"
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "name": "Isaac",
+        "role": "Senior Sales Executive",
+        "region": "Middle East",
+        "skills": [
+          "Relationship Building",
+          "Market Expansion",
+          "Presentation"
+        ],
+        "deals": [
+          {
+            "client": "Stevens and Sons",
+            "value": 126630,
+            "status": "Closed Lost"
+          },
+          {
+            "client": "Nichols-Carlson",
+            "value": 118103,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Mueller and Sons",
+            "value": 70312,
+            "status": "Closed Lost"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Jones, Leonard and Stephens",
+            "industry": "Retail",
+            "contact": "edwardsstephanie@yahoo.com"
+          },
+          {
+            "name": "Lewis, Lin and Shannon",
+            "industry": "Tech",
+            "contact": "brenda32@ruiz.com"
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "name": "Jill",
+        "role": "Sales Representative",
+        "region": "Asia-Pacific",
+        "skills": [
+          "Relationship Building",
+          "Sales Strategy",
+          "CRM"
+        ],
+        "deals": [
+          {
+            "client": "Miller Inc",
+            "value": 61677,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Berry LLC",
+            "value": 110182,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Carson-Hoffman",
+            "value": 72359,
+            "status": "Closed Lost"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Henry, Morgan and Garcia",
+            "industry": "Tech",
+            "contact": "james21@howell.com"
+          },
+          {
+            "name": "Wolfe, Oliver and Boyd",
+            "industry": "Telecommunications",
+            "contact": "albertgibson@craig.com"
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "name": "John",
+        "role": "Regional Sales Manager",
+        "region": "North America",
+        "skills": [
+          "Data Analysis",
+          "Sales Strategy",
+          "Client Relations"
+        ],
+        "deals": [
+          {
+            "client": "Bean, Rodriguez and Boyd",
+            "value": 74811,
+            "status": "Closed Lost"
+          },
+          {
+            "client": "Gordon Group",
+            "value": 110031,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Simmons PLC",
+            "value": 113927,
+            "status": "In Progress"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Sanders Group",
+            "industry": "Logistics",
+            "contact": "qmarsh@hotmail.com"
+          },
+          {
+            "name": "Cox, Byrd and Little",
+            "industry": "Hospitality",
+            "contact": "foxjeanette@yahoo.com"
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "name": "Jennifer",
+        "role": "Senior Sales Executive",
+        "region": "Middle East",
+        "skills": [
+          "Presentation",
+          "Data Analysis",
+          "Relationship Building"
+        ],
+        "deals": [
+          {
+            "client": "Stanley, Franklin and Macdonald",
+            "value": 100841,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Ellis, Jarvis and Taylor",
+            "value": 108695,
+            "status": "Closed Lost"
+          },
+          {
+            "client": "Green Ltd",
+            "value": 125078,
+            "status": "In Progress"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Pennington, Williams and Miller",
+            "industry": "Energy",
+            "contact": "jeremythomas@stevens-gonzalez.com"
+          },
+          {
+            "name": "Sutton and Sons",
+            "industry": "Telecommunications",
+            "contact": "martinmarcus@gmail.com"
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "name": "Christopher",
+        "role": "Sales Representative",
+        "region": "North America",
+        "skills": [
+          "Market Expansion",
+          "Presentation",
+          "Strategic Partnerships"
+        ],
+        "deals": [
+          {
+            "client": "Walker, Gonzalez and Benitez",
+            "value": 108171,
+            "status": "In Progress"
+          },
+          {
+            "client": "Mccarty-Rogers",
+            "value": 79884,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Chase, Garrett and Woodard",
+            "value": 86026,
+            "status": "In Progress"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Davis LLC",
+            "industry": "Logistics",
+            "contact": "jdunn@yahoo.com"
+          },
+          {
+            "name": "Wilson-Kelly",
+            "industry": "Telecommunications",
+            "contact": "perkinsshawn@yahoo.com"
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "name": "Gregory",
+        "role": "Business Development Manager",
+        "region": "North America",
+        "skills": [
+          "CRM",
+          "Relationship Building",
+          "Market Analysis"
+        ],
+        "deals": [
+          {
+            "client": "Lowe, Clements and Adams",
+            "value": 75129,
+            "status": "In Progress"
+          },
+          {
+            "client": "Rogers-Dickerson",
+            "value": 74875,
+            "status": "In Progress"
+          },
+          {
+            "client": "Romero-Koch",
+            "value": 77328,
+            "status": "In Progress"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Mccarthy-Wright",
+            "industry": "Energy",
+            "contact": "uhuffman@yahoo.com"
+          },
+          {
+            "name": "Castillo, Blanchard and Roberts",
+            "industry": "Energy",
+            "contact": "heather32@hotmail.com"
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "name": "Haley",
+        "role": "Business Development Manager",
+        "region": "Middle East",
+        "skills": [
+          "Presentation",
+          "Customer Service",
+          "Strategic Partnerships"
+        ],
+        "deals": [
+          {
+            "client": "Barnes, Smith and Rivera",
+            "value": 55950,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Holland-Johnson",
+            "value": 96286,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Hart-Cantrell",
+            "value": 69263,
+            "status": "Closed Won"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Smith, Jones and Schwartz",
+            "industry": "Tech",
+            "contact": "coxchristine@baker.com"
+          },
+          {
+            "name": "Jennings, Tucker and Brown",
+            "industry": "Tech",
+            "contact": "rpena@gmail.com"
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "name": "Lisa",
+        "role": "Senior Sales Executive",
+        "region": "Asia-Pacific",
+        "skills": [
+          "Market Expansion",
+          "Data Analysis",
+          "Strategic Partnerships"
+        ],
+        "deals": [
+          {
+            "client": "Mcpherson-Branch",
+            "value": 123564,
+            "status": "Closed Lost"
+          },
+          {
+            "client": "Thomas-Mueller",
+            "value": 73208,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Little Ltd",
+            "value": 85846,
+            "status": "Closed Won"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Jones-Long",
+            "industry": "Tech",
+            "contact": "aburch@kelly.com"
+          },
+          {
+            "name": "Washington, Cook and Cobb",
+            "industry": "Tech",
+            "contact": "lopezeric@fitzgerald-hayes.net"
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "name": "Mark",
+        "role": "Account Manager",
+        "region": "North America",
+        "skills": [
+          "Market Expansion",
+          "Relationship Building",
+          "CRM"
+        ],
+        "deals": [
+          {
+            "client": "Estrada, Anderson and Brown",
+            "value": 121774,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Morrison and Sons",
+            "value": 84448,
+            "status": "In Progress"
+          },
+          {
+            "client": "Palmer LLC",
+            "value": 114510,
+            "status": "In Progress"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Adams-Carroll",
+            "industry": "Healthcare",
+            "contact": "tuckersamuel@yahoo.com"
+          },
+          {
+            "name": "Miller-Atkins",
+            "industry": "Manufacturing",
+            "contact": "jeffrey26@whitaker.biz"
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "name": "Peter",
+        "role": "Regional Sales Manager",
+        "region": "Asia-Pacific",
+        "skills": [
+          "Client Relations",
+          "Market Analysis",
+          "Lead Generation"
+        ],
+        "deals": [
+          {
+            "client": "Wood-Jones",
+            "value": 54056,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Smith, Henderson and Green",
+            "value": 121448,
+            "status": "In Progress"
+          },
+          {
+            "client": "Brown-White",
+            "value": 125330,
+            "status": "Closed Won"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Hernandez Ltd",
+            "industry": "Manufacturing",
+            "contact": "kristawalters@martin.biz"
+          },
+          {
+            "name": "Buchanan Group",
+            "industry": "Energy",
+            "contact": "jeffgarcia@gmail.com"
+          }
+        ]
+      },
+      {
+        "id": 39,
+        "name": "Kaylee",
+        "role": "Sales Representative",
+        "region": "South America",
+        "skills": [
+          "Market Analysis",
+          "Client Relations",
+          "Presentation"
+        ],
+        "deals": [
+          {
+            "client": "Wells PLC",
+            "value": 111623,
+            "status": "In Progress"
+          },
+          {
+            "client": "Johnson, Mendez and Obrien",
+            "value": 50065,
+            "status": "Closed Lost"
+          },
+          {
+            "client": "Cross, Smith and Cunningham",
+            "value": 121479,
+            "status": "Closed Won"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Dixon-Perez",
+            "industry": "Retail",
+            "contact": "dlogan@hotmail.com"
+          },
+          {
+            "name": "Saunders PLC",
+            "industry": "Healthcare",
+            "contact": "brianaustin@burton-jarvis.com"
+          }
+        ]
+      },
+      {
+        "id": 40,
+        "name": "James",
+        "role": "Business Development Manager",
+        "region": "North America",
+        "skills": [
+          "Market Expansion",
+          "Presentation",
+          "CRM"
+        ],
+        "deals": [
+          {
+            "client": "Hooper Inc",
+            "value": 81514,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Wagner Group",
+            "value": 46133,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Hill LLC",
+            "value": 62352,
+            "status": "In Progress"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Arias, Turner and Kim",
+            "industry": "Hospitality",
+            "contact": "margaret39@gmail.com"
+          },
+          {
+            "name": "Hopkins, Torres and Gray",
+            "industry": "Retail",
+            "contact": "hornmichelle@sellers-arnold.com"
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "name": "Kyle",
+        "role": "Regional Sales Manager",
+        "region": "South America",
+        "skills": [
+          "Negotiation",
+          "Sales Strategy",
+          "Client Relations"
+        ],
+        "deals": [
+          {
+            "client": "Fields Group",
+            "value": 105235,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Rodriguez Group",
+            "value": 126188,
+            "status": "In Progress"
+          },
+          {
+            "client": "Brown-Scott",
+            "value": 120961,
+            "status": "In Progress"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Lee, Adams and Wilson",
+            "industry": "Logistics",
+            "contact": "julie46@harvey-diaz.com"
+          },
+          {
+            "name": "Foster, Mitchell and Sullivan",
+            "industry": "Retail",
+            "contact": "tabitha77@hotmail.com"
+          }
+        ]
+      },
+      {
+        "id": 42,
+        "name": "Cynthia",
+        "role": "Senior Sales Executive",
+        "region": "South America",
+        "skills": [
+          "Lead Generation",
+          "Market Analysis",
+          "Market Expansion"
+        ],
+        "deals": [
+          {
+            "client": "Rollins, Payne and Collier",
+            "value": 122920,
+            "status": "Closed Lost"
+          },
+          {
+            "client": "Andrews, Norris and Wheeler",
+            "value": 119387,
+            "status": "Closed Lost"
+          },
+          {
+            "client": "Ryan PLC",
+            "value": 60108,
+            "status": "Closed Lost"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Campbell-Yu",
+            "industry": "Manufacturing",
+            "contact": "wortiz@hotmail.com"
+          },
+          {
+            "name": "Ward, Williams and Stewart",
+            "industry": "Telecommunications",
+            "contact": "michaelkim@hickman.org"
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "name": "Christopher",
+        "role": "Sales Representative",
+        "region": "Middle East",
+        "skills": [
+          "Lead Generation",
+          "Strategic Partnerships",
+          "Client Relations"
+        ],
+        "deals": [
+          {
+            "client": "Stein, Bernard and Wilson",
+            "value": 54185,
+            "status": "In Progress"
+          },
+          {
+            "client": "Torres, Gould and Shah",
+            "value": 63538,
+            "status": "Closed Lost"
+          },
+          {
+            "client": "Harris, Giles and Gardner",
+            "value": 96487,
+            "status": "Closed Won"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Webster, Henry and Rowe",
+            "industry": "Retail",
+            "contact": "anthonyvelazquez@nichols.info"
+          },
+          {
+            "name": "Mosley PLC",
+            "industry": "Energy",
+            "contact": "mendozamarie@young.com"
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "name": "Jason",
+        "role": "Business Development Manager",
+        "region": "Europe",
+        "skills": [
+          "Presentation",
+          "Negotiation",
+          "Strategic Partnerships"
+        ],
+        "deals": [
+          {
+            "client": "Young Group",
+            "value": 97638,
+            "status": "Closed Lost"
+          },
+          {
+            "client": "Williams, Baker and Jones",
+            "value": 65660,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Ortega, Taylor and Williams",
+            "value": 107372,
+            "status": "Closed Lost"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Moore Ltd",
+            "industry": "Finance",
+            "contact": "jillian66@gmail.com"
+          },
+          {
+            "name": "Kennedy Ltd",
+            "industry": "Telecommunications",
+            "contact": "mendezpaul@hotmail.com"
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "name": "Michael",
+        "role": "Regional Sales Manager",
+        "region": "South America",
+        "skills": [
+          "Data Analysis",
+          "Market Expansion",
+          "Presentation"
+        ],
+        "deals": [
+          {
+            "client": "Thompson, Williams and Moore",
+            "value": 120310,
+            "status": "Closed Lost"
+          },
+          {
+            "client": "Campbell, Olson and Stark",
+            "value": 125841,
+            "status": "In Progress"
+          },
+          {
+            "client": "Fox, Rowland and Peterson",
+            "value": 68376,
+            "status": "Closed Won"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Hughes-Brown",
+            "industry": "Finance",
+            "contact": "elizabethmanning@griffin.info"
+          },
+          {
+            "name": "Hall Ltd",
+            "industry": "Energy",
+            "contact": "mary91@yahoo.com"
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "name": "Angelica",
+        "role": "Senior Sales Executive",
+        "region": "Asia-Pacific",
+        "skills": [
+          "Sales Strategy",
+          "CRM",
+          "Data Analysis"
+        ],
+        "deals": [
+          {
+            "client": "Colon-Smith",
+            "value": 53581,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Hernandez-Johnson",
+            "value": 58111,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Hunt, Marquez and Riley",
+            "value": 98452,
+            "status": "In Progress"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Martin, Rice and Santos",
+            "industry": "Hospitality",
+            "contact": "daltonstacy@hotmail.com"
+          },
+          {
+            "name": "Morris, Vincent and Roberts",
+            "industry": "Logistics",
+            "contact": "tonyasmith@cruz-williams.com"
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "name": "Brett",
+        "role": "Senior Sales Executive",
+        "region": "Asia-Pacific",
+        "skills": [
+          "Data Analysis",
+          "Relationship Building",
+          "Presentation"
+        ],
+        "deals": [
+          {
+            "client": "Williams-Howell",
+            "value": 78613,
+            "status": "Closed Lost"
+          },
+          {
+            "client": "Torres and Sons",
+            "value": 105856,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Ross, West and Zimmerman",
+            "value": 59514,
+            "status": "Closed Lost"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Petersen-Hernandez",
+            "industry": "Finance",
+            "contact": "dmiller@yahoo.com"
+          },
+          {
+            "name": "Johnson, Sanchez and Dennis",
+            "industry": "Finance",
+            "contact": "nichole50@yahoo.com"
+          }
+        ]
+      },
+      {
+        "id": 48,
+        "name": "Ronald",
+        "role": "Senior Sales Executive",
+        "region": "Asia-Pacific",
+        "skills": [
+          "Presentation",
+          "Client Relations",
+          "Data Analysis"
+        ],
+        "deals": [
+          {
+            "client": "Graves-Castillo",
+            "value": 91673,
+            "status": "In Progress"
+          },
+          {
+            "client": "Ryan and Sons",
+            "value": 113329,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Lozano Ltd",
+            "value": 58231,
+            "status": "In Progress"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Baker, Christensen and Thompson",
+            "industry": "Telecommunications",
+            "contact": "jenniferramirez@hotmail.com"
+          },
+          {
+            "name": "Brown PLC",
+            "industry": "Manufacturing",
+            "contact": "sextontyler@hotmail.com"
+          }
+        ]
+      },
+      {
+        "id": 49,
+        "name": "Mark",
+        "role": "Account Manager",
+        "region": "Europe",
+        "skills": [
+          "Lead Generation",
+          "CRM",
+          "Data Analysis"
+        ],
+        "deals": [
+          {
+            "client": "Lucas-Roberson",
+            "value": 121398,
+            "status": "In Progress"
+          },
+          {
+            "client": "Meyer and Sons",
+            "value": 53520,
+            "status": "Closed Won"
+          },
+          {
+            "client": "Baxter, Lambert and Wright",
+            "value": 126531,
+            "status": "Closed Lost"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Nash, David and Ray",
+            "industry": "Tech",
+            "contact": "kayla01@morton.org"
+          },
+          {
+            "name": "Turner-Cain",
+            "industry": "Logistics",
+            "contact": "ashley32@yahoo.com"
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "name": "Stephanie",
+        "role": "Account Manager",
+        "region": "North America",
+        "skills": [
+          "Sales Strategy",
+          "Market Expansion",
+          "CRM"
+        ],
+        "deals": [
+          {
+            "client": "Williams PLC",
+            "value": 93153,
+            "status": "Closed Lost"
+          },
+          {
+            "client": "Willis-Lawrence",
+            "value": 46356,
+            "status": "In Progress"
+          },
+          {
+            "client": "Williams PLC",
+            "value": 118708,
+            "status": "In Progress"
+          }
+        ],
+        "clients": [
+          {
+            "name": "Fuller-Jackson",
+            "industry": "Retail",
+            "contact": "paul93@brown.com"
+          },
+          {
+            "name": "Ferguson Inc",
+            "industry": "Hospitality",
+            "contact": "cassandrabeck@gmail.com"
+          }
+        ]
+      },
+      {
+        "id": 51,
         "name": "Alice",
         "role": "Senior Sales Executive",
         "region": "North America",
@@ -17,7 +2017,7 @@
         ]
       },
       {
-        "id": 2,
+        "id": 52,
         "name": "Bob",
         "role": "Sales Representative",
         "region": "Europe",
@@ -33,7 +2033,7 @@
         ]
       },
       {
-        "id": 3,
+        "id": 53,
         "name": "Charlie",
         "role": "Account Manager",
         "region": "Asia-Pacific",
@@ -49,7 +2049,7 @@
         ]
       },
       {
-        "id": 4,
+        "id": 54,
         "name": "Dana",
         "role": "Business Development Manager",
         "region": "South America",
@@ -65,7 +2065,7 @@
         ]
       },
       {
-        "id": 5,
+        "id": 55,
         "name": "Eve",
         "role": "Regional Sales Manager",
         "region": "Middle East",

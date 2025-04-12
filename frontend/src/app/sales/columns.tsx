@@ -3,6 +3,7 @@
 
 import { Avatar, AvatarImage, AvatarFallback } from "@radix-ui/react-avatar";
 import { ColumnDef } from "@tanstack/react-table";
+import Link from "next/link";
 import { Row } from "react-day-picker";
 import { Cell } from "recharts";
 
@@ -33,7 +34,7 @@ export interface SalesData {
 }
 
 
-export const columns: ColumnDef<SalesRep>[] = [
+export const columns: ColumnDef<SalesRep, unknown>[] = [
   {
     accessorKey: "id",
     header: "ID"
@@ -42,12 +43,24 @@ export const columns: ColumnDef<SalesRep>[] = [
     accessorKey: "name",
     header: "Name",
     cell: ({cell, row}) => {
+      const salesRep = row.original;
+      const id = salesRep.id;
       return (
-        <div className="w-10 h-10 overflow-hidden rounded-full">
-          <Avatar>
-            <AvatarImage src="https://github.com/shadcn.png" />
-            <AvatarFallback>CN</AvatarFallback>
-          </Avatar>
+        <div className="flex flex-row items-center w-full">
+          <div className="w-10 h-10 overflow-hidden rounded-full">
+            <Avatar>
+              <AvatarImage src="https://github.com/shadcn.png" />
+              <AvatarFallback>CN</AvatarFallback>
+            </Avatar>
+          </div>
+          <div className="ml-4 font-semibold text-slate-700 flex flex-col">
+            <div className="">{row.original.name}</div>
+            <div className="text-xs text-slate-500 gap-x-1 flex">
+              <Link href={`/sales/${id}/deals`} className="underline">Deals ({salesRep.deals?.length || 0})</Link>
+              &bull;
+              <Link href={`/sales/${id}/clients`} className="underline">Clients ({salesRep.clients?.length || 0})</Link>
+            </div>
+          </div>
         </div>
       )
     }
@@ -73,15 +86,23 @@ export const columns: ColumnDef<SalesRep>[] = [
       </div>
     },
   },
-  {
-    id: "summaries",
-    header: "Summaries",
-    cell: ({row, cell}) => {
-      return (
-        <div>
-          0 Clients, 0 Deals
-        </div>
-      )
-    }
-  }
+  // {
+  //   id: "summaries",
+  //   accessorKey: "summaries",
+  //   header: "Summaries",
+  //   cell: ({ row }) => {
+  //     const salesRep = row.original;
+  //     const id = salesRep.id;
+  //     return (
+  //       <div className="flex gap-2">
+  //         <Link href={`/sales/${id}/deals`} className="underline text-blue-600">
+  //           Deals ({salesRep.deals?.length || 0})
+  //         </Link>
+  //         <Link href={`/sales/${id}/clients`} className="underline text-green-600">
+  //           Clients ({salesRep.clients?.length || 0})
+  //         </Link>
+  //       </div>
+  //     );
+  //   }
+  // }
 ]
