@@ -15,7 +15,7 @@ export default function Sales() {
         return data;
     }
 
-    const { data, error, isLoading } = useQuery({
+    const { data, error, isLoading, isFetching } = useQuery({
         queryKey: ['sales'],
         queryFn: fetchSales,
     });
@@ -49,7 +49,7 @@ export default function Sales() {
                 columns={columns ?? []} 
                 data={data?.data?.salesReps ?? []} 
                 error={error} 
-                isLoading={isLoading}
+                isLoading={isLoading || isFetching}
                 pagination={pagination}
             />
 

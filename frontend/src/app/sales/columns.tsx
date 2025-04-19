@@ -4,8 +4,6 @@
 import { Avatar, AvatarImage, AvatarFallback } from "@radix-ui/react-avatar";
 import { ColumnDef } from "@tanstack/react-table";
 import Link from "next/link";
-import { Row } from "react-day-picker";
-import { Cell } from "recharts";
 
 export interface Deal {
   client: string;
@@ -85,24 +83,5 @@ export const columns: ColumnDef<SalesRep, unknown>[] = [
         ))}
       </div>
     },
-  },
-  // {
-  //   id: "summaries",
-  //   accessorKey: "summaries",
-  //   header: "Summaries",
-  //   cell: ({ row }) => {
-  //     const salesRep = row.original;
-  //     const id = salesRep.id;
-  //     return (
-  //       <div className="flex gap-2">
-  //         <Link href={`/sales/${id}/deals`} className="underline text-blue-600">
-  //           Deals ({salesRep.deals?.length || 0})
-  //         </Link>
-  //         <Link href={`/sales/${id}/clients`} className="underline text-green-600">
-  //           Clients ({salesRep.clients?.length || 0})
-  //         </Link>
-  //       </div>
-  //     );
-  //   }
-  // }
+  }
 ]

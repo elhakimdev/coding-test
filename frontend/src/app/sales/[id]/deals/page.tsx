@@ -1,9 +1,12 @@
 "use client";
+import { DataTable } from "@/components/shareds/datatable";
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 import { useParams } from "next/navigation";
+import { columns } from "./columns";
+import { useState } from "react";
 
-export default function SalesDeals(){
+export default function SalesDeals() {
   const params = useParams();
   const salesRepId = Number(params?.id);
 
@@ -13,16 +16,21 @@ export default function SalesDeals(){
     return data;
   }
 
-  const { data, error, isLoading } = useQuery({
+  const { data, error, isLoading, isFetching } = useQuery({
     queryKey: ['sales-deals', salesRepId],
     queryFn: () => fetchSalesDeals(String(salesRepId)),
     enabled: !!salesRepId,
   });
-  
+
+  const [pagination, setPagination] = useState({
+    pageIndex: 0, //initial page index
+    pageSize: 5, //default page size
+  });
+
   return (
     <div className="p-6">
       <h1 className="text-xl font-bold mb-4">Deals for Sales Rep #{salesRepId}</h1>
-      {/* <DataTable columns={columns} data={deals} isLoading={isLoading} error={error} /> */}
+      <DataTable columns={columns} data={data?.data?.deals ?? []} isLoading={isLoading || isFetching} error={error} pagination={pagination} />
     </div>
   )
 }
