@@ -121,6 +121,12 @@ Using these free or trial options can help you add an AI chatbot or similar func
      uvicorn main:app --host 0.0.0.0 --port 8000 --reload
      ```  
    - Confirm the API works by visiting `http://localhost:8000/docs`.
+   - Note for running using vEnv - becuase gemini ned latest python -v, please follow these 
+   ```
+   python3 -m venv venv
+   source venv/bin/activate
+   python3.10 main.py
+   ```
 
 3. **Frontend Setup**  
    - Navigate to the `frontend` directory.  
@@ -154,4 +160,13 @@ Using these free or trial options can help you add an AI chatbot or similar func
 
 ---
 
+## Screenshot 
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
+![alt text](image-4.png)
+![alt text](image-5.png)
+![alt text](image-6.png)
+![alt text](image-7.png)
 **Good luck, and have fun building your Sales Dashboard!**
