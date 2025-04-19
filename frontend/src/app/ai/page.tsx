@@ -29,20 +29,22 @@ export default function Ai() {
         value={prompt}
         onChange={(e) => setPrompt(e.target.value)}
       />
+      <div className='flex flex-row gap-x-3'>
       <button
         onClick={handleSubmit}
-        className="bg-blue-500 text-white px-4 py-2 rounded"
+        className="cursor-pointer rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
         disabled={isPending}
       >
         {isPending ? 'Loading...' : 'Ask'}
       </button>
       <button
         onClick={handleClear}
-        className="bg-green-500 text-white px-4 py-2 rounded ml-3"
+        className="cursor-pointer rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
         disabled={isPending}
       >
         Clear
       </button>
+      </div>
 
       <div className="mt-6 whitespace-pre-wrap text-gray-800 border-t pt-4">
         <div

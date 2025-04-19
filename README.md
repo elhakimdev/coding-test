@@ -149,6 +149,9 @@ Using these free or trial options can help you add an AI chatbot or similar func
    - **UI Libraries**: Feel free to use any UI library or styling approach (Tailwind, CSS modules, etc.) if desired.
    - **Extensions**: You can incorporate charts, filters, or sorting to demonstrate extra skills.
 
+7. **For AI**
+   - please before run this fork use the your api key, and place inside ```./bakcend/.env```, am use gemini api, so you must cinfigure "GEMINI_API_KEY" inside .env file
+
 ---
 
 **Good luck, and have fun building your Sales Dashboard!**
